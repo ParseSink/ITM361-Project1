@@ -1,0 +1,139 @@
+/* ========== color Pallette ==========
+color: Black Forest #143109 
+Color: Dry Sage #AAAE7F
+color: Beige #D0D6B3
+color: Cerulean #40798C
+color: Periwinkle #CBC5EA
+======================================= */
+
+/* ========== Base Styles ========== */
+html {
+  font-family:'Kayak Sans', sans-serif;
+  background-color: #D0D6B3; 
+}
+body {
+  color:#143109;
+  margin:0em;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding:0em;
+}
+strong {
+  font-weight: bold;
+}
+em{
+    font-style: italic;  
+}
+p{
+  font-weight: 200;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+ul{
+  list-style-type: none;
+  gap: 1em;
+} 
+li{
+  font-weight: 200;
+}
+/* ========== Layout ========== */
+#wrapper{
+  padding:2em;
+  margin-top: 5em;
+  max-width: 1200px;
+}
+#nav {
+  display: flex;
+  width: 100%;
+  align-items: left;
+  font-weight: 200;
+  padding: 1em;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  align-items: stretch;
+  background-color: #AAAE7F; 
+}
+.nav ul {
+  display: flex;        
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: flex-start;
+  max-width: 33.33em;
+}
+.nav li {
+  flex: 1;
+}
+.nav a {
+  display: block;
+  width: 100%;      
+  height: 100%;      
+  text-decoration: none;         
+  text-align: center;
+  color: #40798C;     
+  background-color: #AAAE7F; 
+  font-weight: 400;
+  transition: all 0.3s ease; 
+}
+.nav a:hover {
+  background-color: #143109; 
+  color: #D0D6B3;          
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+/* ========== Fonts ========== */
+
+/* 1. Regular Weight */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-regular.woff2') format('woff2');
+  font-weight: 400; /* 400 is standard normal weight */
+  font-style: normal;
+}
+/* 2. Regular Italic */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+/* 3. Bold Weight */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-bold.woff2') format('woff2');
+  font-weight: 700; /* 700 is standard bold weight */
+  font-style: normal;
+}
+/* 4. Bold Italic */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-bold-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+/* 5. Light Weight */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-light.woff2') format('woff2');
+  font-weight: 300; /* 300 is standard light weight */
+  font-style: normal;
+}
+/* 6. Light Italic */
+@font-face {
+  font-family: 'Kayak Sans';
+  src: url('../fonts/kayak-sans-light-italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
