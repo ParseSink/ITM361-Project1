@@ -17,6 +17,10 @@ body {
   margin-top: 0em;
   padding-top: 0em;
   padding:0em;
+  background-image: url(/images/speranza.png);
+  background-size: cover;       /* Forces the image to fill the entire screen */
+  background-position: center;  /* Keeps the focal point in the middle */
+  background-attachment: fixed;
 }
 strong {
   font-weight: bold;
@@ -45,16 +49,18 @@ li{
 }
 /* ========== Layout ========== */
 #wrapper{
-  padding:2em;
-  margin-top: 5em;
+  padding: 2em;
+  margin-top: 1.8em;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D0D6B3;
 }
 #nav {
   display: flex;
   width: 100%;
   align-items: left;
   font-weight: 200;
-  padding: 1em;
 }
 .nav {
   position: fixed;
@@ -62,7 +68,6 @@ li{
   left: 0;
   width: 100%;
   z-index: 1000;
-  align-items: stretch;
   background-color: #AAAE7F; 
 }
 .nav ul {
@@ -72,25 +77,30 @@ li{
   list-style-type: none;
   justify-content: flex-start;
   max-width: 33.33em;
+  gap: 0;
 }
+
 .nav li {
   flex: 1;
 }
+
 .nav a {
   display: block;
   width: 100%;      
-  height: 100%;      
+  padding: 1em 0;
   text-decoration: none;         
   text-align: center;
+  font-size: 1.2em;
   color: #40798C;     
-  background-color: #AAAE7F; 
   font-weight: 400;
   transition: all 0.3s ease; 
 }
+
 .nav a:hover {
   background-color: #143109; 
   color: #D0D6B3;          
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}px rgba(0, 0, 0, 0.2); 
 }
 
 /* ========== Fonts ========== */
