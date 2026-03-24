@@ -1,54 +1,50 @@
-/* ========== color Pallette ==========
-color: Black Forest #143109 
-Color: Dry Sage #AAAE7F
-color: Beige #D0D6B3
-color: Cerulean #40798C
-color: Periwinkle #CBC5EA
+/* ========== Color Palette ==========
+Black Forest: #143109 
+Dry Sage: #AAAE7F
+Beige: #D0D6B3
+Cerulean: #40798C
+Periwinkle: #CBC5EA
 ======================================= */
 
 /* ========== Base Styles ========== */
 html {
-  font-family:'Kayak Sans', sans-serif;
+  font-family: 'Kayak Sans', sans-serif;
   background-color: #D0D6B3; 
 }
+
 body {
-  color:#143109;
-  margin:0em;
-  margin-top: 0em;
-  padding-top: 0em;
-  padding:0em;
-  background-image: url(/images/speranza.png);
-  background-size: cover;       /* Forces the image to fill the entire screen */
-  background-position: center;  /* Keeps the focal point in the middle */
+  color: #143109;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/speranza.png');
+  background-size: cover;    
+  background-position: center;  
   background-attachment: fixed;
 }
+
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
-em{
-    font-style: italic;  
+
+em {
+  font-style: italic;  
 }
-p{
-  font-weight: 200;
+
+p, li {
+  font-weight: 300; 
 }
-h1{
-    font-weight: bold;
+
+h1, h2, h3 {
+  font-weight: 700;
 }
-h2{
-    font-weight: bold;
-}
-h3{
-    font-weight: bold;
-}
-ul{
+
+ul {
   list-style-type: none;
   gap: 1em;
 } 
-li{
-  font-weight: 200;
-}
+
 /* ========== Layout ========== */
-#wrapper{
+#wrapper {
   padding: 2em;
   margin-top: 1.8em;
   max-width: 1200px;
@@ -56,12 +52,14 @@ li{
   margin-right: auto;
   background-color: #D0D6B3;
 }
+
 #nav {
   display: flex;
   width: 100%;
-  align-items: left;
-  font-weight: 200;
+  align-items: flex-start;
+  font-weight: 300;
 }
+
 .nav {
   position: fixed;
   top: 0;
@@ -70,6 +68,7 @@ li{
   z-index: 1000;
   background-color: #AAAE7F; 
 }
+
 .nav ul {
   display: flex;        
   margin: 0;
@@ -100,7 +99,6 @@ li{
   background-color: #143109; 
   color: #D0D6B3;          
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-}px rgba(0, 0, 0, 0.2); 
 }
 
 /* ========== Fonts ========== */
@@ -109,7 +107,7 @@ li{
 @font-face {
   font-family: 'Kayak Sans';
   src: url('../fonts/kayak-sans-regular.woff2') format('woff2');
-  font-weight: 400; /* 400 is standard normal weight */
+  font-weight: 400; 
   font-style: normal;
 }
 /* 2. Regular Italic */
@@ -123,7 +121,7 @@ li{
 @font-face {
   font-family: 'Kayak Sans';
   src: url('../fonts/kayak-sans-bold.woff2') format('woff2');
-  font-weight: 700; /* 700 is standard bold weight */
+  font-weight: 700; 
   font-style: normal;
 }
 /* 4. Bold Italic */
@@ -137,7 +135,7 @@ li{
 @font-face {
   font-family: 'Kayak Sans';
   src: url('../fonts/kayak-sans-light.woff2') format('woff2');
-  font-weight: 300; /* 300 is standard light weight */
+  font-weight: 300; 
   font-style: normal;
 }
 /* 6. Light Italic */
