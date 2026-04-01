@@ -87,6 +87,10 @@ ul {
   color: #D0D6B3;          
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
+.img {
+  max-width: 100%;
+  height: auto;
+}
 /* ========== Fonts ========== */
 /* 1. Regular Weight */
 @font-face {
