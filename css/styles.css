@@ -29,6 +29,7 @@ em {
 }
 p, li {
   font-weight: 300; 
+  overflow: hidden;
 }
 h1, h2, h3 {
   font-weight: 700;
@@ -66,8 +67,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  justify-content: flex-start;
-  max-width: 33.33em;
+  justify-content: center;
+  max-width: 100%;
   gap: 0;
 }
 .nav li {
@@ -94,6 +95,23 @@ img {
   max-width: 100%;
   height: auto;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* ========== Hobby Section Layout ========== */
+.hobby-row {
+  display: flex;
+  align-items: stretch; 
+  justify-content: space-between;
+  gap: 2em; 
+  margin-bottom: 2em;
+}
+
+.hobby-text {
+  width: 66%;
+}
+
+.hobby-img-box {
+  width: 33%;
+  position: relative;
 }
 /* ========== Fonts ========== */
 /* 1. Regular Weight */
