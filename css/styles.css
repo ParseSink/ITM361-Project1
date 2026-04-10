@@ -8,8 +8,8 @@ Periwinkle: #CBC5EA
 
 /* ========== Base Styles ========== */
 html {
-  font-family: 'Kayak Sans', sans-serif;
-  background-color: #D0D6B3; 
+  font-family: 'Kayak Sans', Arial, sans-serif; 
+  background-color: #D0D6B3;
 }
 body {
   color: #143109;
@@ -96,6 +96,24 @@ img {
   height: auto;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+/* ========== Footer ========== */
+.footer {
+  background-color: #AAAE7F; 
+  color: #143109; 
+  text-align: center;
+  padding: 1.5em 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0.5em 0;
+  font-weight: 400;
+}
+.footer a {
+  color: #40798C; 
+  text-decoration: none;
+  font-weight: 400;
+}
 /* ========== Hobby Section Layout ========== */
 .hobby-row {
   display: flex;
@@ -112,6 +130,21 @@ img {
 .hobby-img-box {
   width: 33%;
   position: relative;
+}
+
+.hobby-image { 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;       
+}
+/* ========== contact Section Layout ========== */
+.contact-section {
+  float: top;
+  width: 30%;
+  background-color: #CBC5EA; 
+  padding: 1em;
+  border-radius: 8px;
 }
 /* ========== Fonts ========== */
 /* 1. Regular Weight */
