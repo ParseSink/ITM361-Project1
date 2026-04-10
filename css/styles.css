@@ -141,10 +141,16 @@ img {
 /* ========== contact Section Layout ========== */
 .contact-section {
   float: top;
-  width: 30%;
-  background-color: #CBC5EA; 
+  width: 50%;
+  background-color: #AAAE7F; 
   padding: 1em;
   border-radius: 8px;
+}
+/* ========== resume Section Layout ========== */
+.resume-section-header {
+  border-bottom: 2px solid #AAAE7F; /* Uses your Dry Sage color */
+  padding-bottom: 0.2em;
+  margin-top: 1.5em;
 }
 /* ========== Fonts ========== */
 /* 1. Regular Weight */
