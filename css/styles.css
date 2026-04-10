@@ -148,7 +148,7 @@ img {
 }
 /* ========== resume Section Layout ========== */
 .resume-section-header {
-  border-bottom: 2px solid #AAAE7F; /* Uses your Dry Sage color */
+  border-bottom: 2px solid #AAAE7F; 
   padding-bottom: 0.2em;
   margin-top: 1.5em;
 }
