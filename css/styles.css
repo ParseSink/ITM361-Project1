@@ -114,8 +114,8 @@ img {
   text-decoration: none;
   font-weight: 400;
 }
-/* ========== Hobby Section Layout ========== */
-.hobby-row {
+/* ========== text and image Section Layout ========== */
+.page-row {
   display: flex;
   align-items: stretch; 
   justify-content: space-between;
@@ -123,16 +123,16 @@ img {
   margin-bottom: 2em;
 }
 
-.hobby-text {
+.page-text {
   width: 66%;
 }
 
-.hobby-img-box {
+.page-img-box {
   width: 33%;
   position: relative;
 }
 
-.hobby-image { 
+.page-image { 
   top: 0;
   left: 0;
   width: 100%;
