@@ -138,7 +138,18 @@ img {
   width: 100%;
   height: 100%;       
 }
-/* ========== contact Section Layout ========== */
+/* ========== index Section Layout ========== */
+.index-header {
+  border-bottom: 2px solid #AAAE7F;
+  padding-bottom: 0.2em;
+  margin-top: 1.5em;
+}
+/* ========== resume Section Layout ========== */
+.resume-section-header {
+  border-bottom: 2px solid #AAAE7F;
+  padding-bottom: 0.2em;
+  margin-top: 1.5em;
+}
 .contact-section {
   float: top;
   width: 50%;
@@ -146,9 +157,14 @@ img {
   padding: 1em;
   border-radius: 8px;
 }
-/* ========== resume Section Layout ========== */
-.resume-section-header {
-  border-bottom: 2px solid #AAAE7F; /* Uses your Dry Sage color */
+/* ========== Speranza Section Layout ========== */
+.speranza-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em; 
+}
+.speranza-header {
+  border-bottom: 2px solid #AAAE7F;
   padding-bottom: 0.2em;
   margin-top: 1.5em;
 }
