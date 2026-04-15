@@ -126,7 +126,7 @@ img {
 
 .page-text {
   width: 66%;
-}
+} 
 
 .page-img-box {
   width: 33%;
@@ -169,6 +169,27 @@ img {
   border-bottom: 2px solid #AAAE7F;
   padding-bottom: 0.2em;
   margin-top: 1.5em;
+}
+/* ========== mobile Section Layout ========== */
+.page-row {
+  flex-direction: column; 
+  text-align: center;     
+}
+.page-text, .page-img-box {
+  width: 100%;            
+  padding: 0;              
+  margin-bottom: 1em;     
+}
+
+/* Tablet and Desktop: min-width query */
+@media (min-width: 48rem) {
+  .page-row {
+    flex-direction: row;  
+    text-align: left;     
+  }
+  .page-text { width: 66%; } 
+  .page-img-box { width: 33%; } 
+  #wrapper { padding: 3em; }   
 }
 /* ========== Fonts ========== */
 /* 1. Regular Weight */
