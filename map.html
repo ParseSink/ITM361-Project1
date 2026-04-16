@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="js/scripts.js" defer></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzaivEd2UYlnzKUuvVnTfDzm3ZUdrbAVk&libraries=maps,marker&v=beta" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzaivEd2UYlnzKUuvVnTfDzm3ZUdrbAVk&libraries=maps,marker&v=beta&loading=async" defer></script>
 </head>
 <body>
   <nav class="nav">
@@ -28,7 +28,6 @@
       center="41.8900,-87.6500" 
       zoom="11"
       map-id="DEMO_MAP_ID"
-      style="height: 500px; width: 100%; border: 2px solid #143109;"
     >
       <gmp-advanced-marker
         position="41.8349,-87.6270"
@@ -48,9 +47,11 @@
   </div>
 
   <footer class="footer">
-    <p>&copy; 2026 Joel Campos | Illinois Institute of Technology | ITM361 - Web Development for IT Professionals | Project 3/p>
+    <p>
+      &copy; 2026 Joel Campos | Illinois Institute of Technology | ITM361 - Web Development for IT Professionals | Project 3
+    </p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
-      <img style="border:0;width:88px;height:31px"
+      <img class="validator-image"
         src="https://jigsaw.w3.org/css-validator/images/vcss"
         alt="Valid CSS!" />
     </a>

@@ -104,7 +104,11 @@ img {
   padding: 1.5em 0;
   width: 100%;
 }
-
+.validator-image {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
 .footer p {
   margin: 0.5em 0;
   font-weight: 400;
@@ -146,6 +150,13 @@ img {
   padding-bottom: 0.2em;
   margin-top: 1.5em;
 }
+.index-featured {
+margin: 20px auto; 
+text-align: center;
+max-width: 400px; 
+border: 3px solid #143109;
+}
+
 /* ========== resume Section Layout ========== */
 .resume-section-header {
   border-bottom: 2px solid #AAAE7F;
@@ -169,6 +180,12 @@ img {
   padding-bottom: 0.2em;
   margin-top: 1.5em;
 }
+/* ========== Map Section Layout ========== */
+#my-map {
+  height: 500px;
+  width: 100%;
+  border: 2px solid #143109;
+}
 /* ========== mobile Section Layout ========== */
 .page-row {
   flex-direction: column; 
@@ -179,8 +196,7 @@ img {
   padding: 0;              
   margin-bottom: 1em;     
 }
-
-/* Tablet and Desktop: min-width query */
+/* pones and small screens */
 @media (min-width: 48rem) {
   .page-row {
     flex-direction: row;  
@@ -189,6 +205,20 @@ img {
   .page-text { width: 66%; } 
   .page-img-box { width: 33%; } 
   #wrapper { padding: 3em; }   
+}
+/* Larger Screens */
+@media (min-width: 64rem) {
+  #wrapper { 
+    max-width: 1400px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); 
+  }
+  .nav ul { 
+    justify-content: flex-end; 
+    padding-right: 2em; 
+  }
+  h1 { 
+    font-size: 3em; 
+  }
 }
 /* ========== Fonts ========== */
 /* 1. Regular Weight */

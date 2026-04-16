@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
         "Bambu",
+        "CCNA",
         "homelab",
         "Speranza"
+    ],
+    "cSpell.ignoreWords": [
+        "rackdiagram"
     ]
 }
