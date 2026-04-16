@@ -7,17 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
         initMapFeatures(mapElement);
     }
 
-    // --- FINAL REQUIREMENT: Picture Slider (Index Page Only) ---
+
     const sliderImg = document.getElementById('image-slider');
     if (sliderImg) {
         initSlider(sliderImg);
     }
 });
 
-/**
- * Feature 1: InfoWindows for markers
- * Feature 2: Custom marker interaction
- */
 function initMapFeatures(map) {
     const markers = document.querySelectorAll('gmp-advanced-marker');
     
