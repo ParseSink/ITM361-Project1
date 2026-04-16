@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>Map - Joel Campos</title>
   <link rel="icon" type="image/png" href="images/icon.png">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="js/scripts.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzaivEd2UYlnzKUuvVnTfDzm3ZUdrbAVk&libraries=maps,marker&v=beta" defer></script>
 </head>
 <body>
   <nav class="nav">
@@ -17,27 +18,42 @@
       <li><a href="map.html"><strong>Map</strong></a></li>
     </ul>
   </nav>
+
   <div id="wrapper">
-    <h1>
-      Map
-    </h1>
-    <div>
-      <p>
-        This is a map of the world. It is a very nice map.
-      </p>
-    </div>
-    <div>
-      <img src="images/map.png" alt="A map of the world" class="page-image">
+    <h1>Map </h1>
+    <p>My favorite points of interest in the city</p>
+    
+    <gmp-map
+      id="my-map"
+      center="41.8900,-87.6500" 
+      zoom="11"
+      map-id="DEMO_MAP_ID"
+      style="height: 500px; width: 100%; border: 2px solid #143109;"
+    >
+      <gmp-advanced-marker
+        position="41.8349,-87.6270"
+        title="IIT Campus"
+      ></gmp-advanced-marker>
+      
+      <gmp-advanced-marker
+        position="41.943355,-87.676871"
+        title="The Rat Hole"
+      ></gmp-advanced-marker>
+      
+      <gmp-advanced-marker
+        position="41.899713,-87.674545"
+        title="The Sht Fountain"
+      ></gmp-advanced-marker>
+    </gmp-map>
   </div>
+
   <footer class="footer">
-  <p>
-    &copy; 2026 Joel Campos | Illinois Institute of Technology | ITM361 - Web Development for IT Professionals | Project 2 
-  </p>
+    <p>&copy; 2026 Joel Campos | IIT | ITM361 Project 3</p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
+      <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss"
+        alt="Valid CSS!" />
     </a>
-</footer>
-</body>  
+  </footer>
+</body>
 </html>
